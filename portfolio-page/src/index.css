@@ -11,7 +11,7 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
-  --transition:all 400ms ease;
+  --transition: all 400ms ease;
 }
 
 html {
@@ -46,8 +46,34 @@ section > h5 {
   margin-bottom: 3rem;
 }
 
-.btn{
-    width: max-content;
-    display: inline-block;
-    padding:0.75rem, 1.2rem;
+.btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem, 1.2rem;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* media queries (tablets) */
+
+@media screen and (max-width: 1024px) {
+  .containter {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+/* media queries (smartphones) */
+
+@media screen and (max-width: 600px) {
+  .containter {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }
