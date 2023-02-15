@@ -3,9 +3,9 @@ import React from 'react'
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <i class="nes-icon linkedin is-large">  <a href="https://www.linkedin.com/in/nikita-savelev/"></a></i>
-      <i class="nes-icon linkedin is-large">  <a href="https://www.linkedin.com/in/nikita-savelev/"></a></i>
-      <i class="nes-icon linkedin is-large">  <a href="https://www.linkedin.com/in/nikita-savelev/"></a></i>
+        <a className='icon' target='_blank' href="https://www.linkedin.com/in/nikita-savelev/" rel="noreferrer"><i class="nes-icon linkedin is-large"></i></a>
+      <a className='icon' target='_blank' href="https://github.com/NsavelevJs" rel="noreferrer"><i class="nes-icon github is-large">  </i></a>
+      
     </div>
   )
 }

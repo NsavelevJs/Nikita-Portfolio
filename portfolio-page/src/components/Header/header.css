@@ -1,0 +1,35 @@
+header{
+    
+    overflow: hidden;
+    padding-top: 7rem;
+    background: rgba(172, 170, 170, 0.375);
+  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+}
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+img{
+    border-radius: 60%;
+    border: #fffffa;
+    display: flex;
+    height: 40%;
+    width: 40%;
+    padding-top: 50px;
+    justify-content: center;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.icon{
+    
+    padding-top:15px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+
+}

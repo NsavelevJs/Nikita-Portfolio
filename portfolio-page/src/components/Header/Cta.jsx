@@ -6,7 +6,7 @@ import '../../index.css'
 const PaddedDiv = styled.div`
   padding: 10px;
   justify-content:center;
-  // display:flex;
+  display:flex;
 `;
 const Wrapper = styled.div`
 justify-content:center;
@@ -23,13 +23,13 @@ const Cta = () => {
         </a>
       </PaddedDiv>
       </Wrapper>
-      <Wrapper>
+      {/* <Wrapper>
       <PaddedDiv>
       <a className="nes-btn btn" href="#contact">
         Lets Chat!
       </a>
       </PaddedDiv>
-    </Wrapper>
+    </Wrapper> */}
     </>
   );
 };
