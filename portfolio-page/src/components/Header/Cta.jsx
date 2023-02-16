@@ -23,13 +23,13 @@ const Cta = () => {
         </a>
       </PaddedDiv>
       </Wrapper>
-      {/* <Wrapper>
+      <Wrapper>
       <PaddedDiv>
       <a className="nes-btn btn" href="#contact">
         Lets Chat!
       </a>
       </PaddedDiv>
-    </Wrapper> */}
+    </Wrapper>
     </>
   );
 };
