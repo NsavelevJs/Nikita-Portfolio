@@ -18,7 +18,7 @@ const Header = () => {
          </h5>
 
           <div className="me" >
-            <img src={Mustacheme} alt="me" />
+            <img className='nes-container' src={Mustacheme} alt="me" />
           </div>
           
            <Cta/>

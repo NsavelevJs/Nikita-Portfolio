@@ -1,0 +1,15 @@
+nav{
+    padding:0.7rem 1.7rem;
+    width: max-content;
+    z-index: 2;
+    display: block;
+    position: fixed;
+    left:calc(50% - 20rem);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(15px);
+}
+

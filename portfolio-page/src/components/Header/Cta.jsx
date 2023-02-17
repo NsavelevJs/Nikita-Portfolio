@@ -18,7 +18,7 @@ const Cta = () => {
     <>
     <Wrapper className="cta">
       <PaddedDiv>
-        <a className="nes-btn btn" href={NikitaResume} download>
+        <a className="nes-btn btn is-primary" href={NikitaResume} download>
           Download Resume
         </a>
       </PaddedDiv>

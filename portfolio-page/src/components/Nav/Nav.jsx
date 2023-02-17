@@ -3,7 +3,14 @@ import './nav.css'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+   <nav>
+    <a className='nes-btn' href="#">Home</a>
+    <a className='nes-btn' href="#about">About</a>
+    <a className='nes-btn' href="#XP">XP</a>
+    <a className='nes-btn' href="#portfolio">Portfolio</a>
+    <a className='nes-btn' href="#contact">Contact</a>
+    
+   </nav>
   )
 }
 
