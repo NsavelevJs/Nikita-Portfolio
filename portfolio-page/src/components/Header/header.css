@@ -1,31 +1,63 @@
-header{
-    overflow: hidden;
-    padding-top: 7rem;
-    border-radius: 30%;
-    background: white;
+header {
+  overflow: hidden;
+  padding-top: 7rem;
+  border-radius: 30%;
+  background: white;
   box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
 }
-.header__container{
-    text-align: center;
-    height: 100%;
-    position: relative;
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
-img{
-    border-radius: 60%;
-    height: 40%;
-    width: 40%;
+img {
+  border-radius: 30%;
+  height: 40%;
+  width: 40%;
 }
-.me{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.me {
+  display: flex;
+  justify-content: center;
 }
-.icon{
-    
-    padding-left:15px;
-    padding-top:15px;
+.icon {
+  padding-left: 15px;
+  padding-top: 15px;
 }
-h5{
-    
-    background: white;
+
+h5 {
+  background: white;
+}
+/* ----------Tablets----------- */
+@media screen and (max-width: 1024px) {
+  header {
+    margin: 15px 0px 20px 0px;
+    border-radius: 15%;
+    height: 100vh;
+    width: 50vh;
+  }
+
+  .cta {
+    margin-top: 25px;
+  }
+  img {
+    margin-top: 25px;
+    width: 55%;
+  }
+  .header__socials {
+    margin-bottom: 20px;
+  }
+}
+/* ----------Smart Phones----------- */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .cta {
+    margin-top: 25px;
+  }
+  img {
+    margin-top: 25px;
+    width: 55%;
+  }
 }

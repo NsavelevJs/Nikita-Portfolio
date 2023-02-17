@@ -6,6 +6,7 @@ import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
+    <>
     <div className='flex'>
     <header>
       
@@ -13,19 +14,20 @@ const Header = () => {
         <h5>
           Hey! I'm
           <h1> Nikita Savelev.</h1>
-          <h5>Front end Developer</h5>
+          <h5>Fullstack Developer</h5>
          </h5>
 
-          <div className="me">
+          <div className="me" >
             <img src={Mustacheme} alt="me" />
           </div>
           
            <Cta/>
-          <HeaderSocials/>
-        
+        <HeaderSocials/>
       </div>
     </header>
     </div>
+          
+          </>
   )
 } 
  
