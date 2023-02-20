@@ -2,13 +2,12 @@ import React from "react";
 import "./portfolio.css";
 const Portfolio = () => {
   return (
-    <section id="portfolio">
-     
-      <div class="nes-container is-rounded with-title is-centered">
-        <p class="title">Portfolio</p>
-        <p>Good morning. Thou hast had a good night's sleep, I hope.</p>
-      </div>
-    </section>
+    <section className='' id='XP'>
+    <div className="nes-balloon is-rounded with-title is-centered white-background">
+  <p className="title">Portfolio:</p>
+  <p></p>
+</div>
+</section>
   );
 };
 

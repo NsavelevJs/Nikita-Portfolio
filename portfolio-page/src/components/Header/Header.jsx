@@ -7,10 +7,10 @@ import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
     <>
-    <div className='flex'>
+    <div className='nes-balloon header__container'>
     <header>
       
-      <div className="conatiner header__container">
+      <div className="">
         <h5>
           Hey! I'm
           <h1> Nikita Savelev.</h1>
